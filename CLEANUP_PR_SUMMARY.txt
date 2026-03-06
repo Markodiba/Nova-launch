@@ -1,0 +1,35 @@
+Pull Request: Remove All Documentation Markdown Files
+
+Branch: cleanup/remove-documentation-files
+Commit: 821491a
+
+Summary:
+Cleanup repository by removing all .md documentation files to streamline 
+the codebase and reduce repository size.
+
+Changes:
+- 132 markdown files deleted
+- 41,014 lines removed
+- 146 lines added (NEXT_STEPS.txt, QUICK_PUSH_GUIDE.sh)
+
+Files Removed:
+- Project documentation (README.md, guides, checklists)
+- Component documentation (frontend components)
+- API documentation (backend routes, health checks)
+- Contract documentation (token-factory specs)
+- Testing documentation (property tests, performance tests)
+- Implementation summaries and completion reports
+
+Affected Directories:
+- Root directory
+- backend/
+- frontend/
+- contracts/token-factory/
+- docs/
+- .kiro/specs/
+- .nova/specs/
+
+PR URL:
+https://github.com/Markodiba/Nova-launch/pull/new/cleanup/remove-documentation-files
+
+Status: ✅ Pushed to remote - Ready for PR creation
